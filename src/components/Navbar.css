@@ -18,7 +18,9 @@
 {
     background-color: #655A8C;
 }
-
+.navbar-toggler {
+    border: none;
+}
 .navbar-toggler:focus {
     text-decoration: none;
     outline: 0;

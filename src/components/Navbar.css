@@ -1,0 +1,31 @@
+.navbar {
+    background-color: #05A6A6;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-toggler-icon {
+    color: white;
+}
+
+.nav-link:hover,
+.navbar-brand:hover
+{
+    color: white;
+}
+
+.nav-link:hover
+{
+    background-color: #655A8C;
+}
+
+.navbar-toggler:focus {
+    text-decoration: none;
+    outline: 0;
+    box-shadow: none;
+    border: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
+}

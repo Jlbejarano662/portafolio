@@ -3,10 +3,15 @@ import "./Navbar.css";
 import { Link } from "react-router-dom";
 
 function Navbar() {
+  const hiddenNavbar = (id) => {
+    console.log("hola");
+    document.getElementById(id).classList.toggle("show");
+  };
+
   return (
     <nav className="navbar navbar-expand-sm ">
       <div className="container-fluid">
-        <a className="navbar-brand px-2" href="#">
+        <a className="navbar-brand px-2" href="/">
           Jazmin Bejarano
         </a>
         <button
@@ -34,24 +39,25 @@ function Navbar() {
         <div className="collapse navbar-collapse" id="collapsibleNavbar">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <Link className="nav-link px-2">
+              <Link
+                to={"/"}
+                className="nav-link px-2"
+                onClick={() => hiddenNavbar("collapsibleNavbar")}
+              >
                 Inicio
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2">
-                Sobre Mi
-              </Link>
+              <Link className="nav-link px-2">Sobre Mi</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2">
-                Estudios
-              </Link>
+              <Link className="nav-link px-2">Estudios</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link px-2">
-                Portafolio
-              </Link>
+              <Link className="nav-link px-2">Portafolio</Link>
+            </li>
+            <li className="nav-item">
+              <Link className="nav-link px-2">Contacto</Link>
             </li>
           </ul>
         </div>

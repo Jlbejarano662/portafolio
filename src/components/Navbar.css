@@ -14,6 +14,11 @@
     color: white;
 }
 
+.nav-link:focus,
+.navbar-brand:focus
+{
+    color: white;
+}
 .nav-link:hover
 {
     background-color: #655A8C;

@@ -50,10 +50,10 @@ function Home() {
       </div>
       <div className="row align-self-end buttons">
         <div className="col d-flex flex-row">
-          <button className="btn btn-aqua btn-lg">Portafolio</button>
+          <button className="btn btn-aqua btn-lg" disabled>Portafolio</button>
         </div>
         <div className="col d-flex flex-row-reverse">
-          <button className="btn btn-purple btn-lg">Descargar CV</button>
+          <a className="btn btn-purple btn-lg" href="./JazminBejaranoIbañez-CV.pdf" target={"_blank"} >Descargar CV</a>
         </div>
       </div>
     </section>

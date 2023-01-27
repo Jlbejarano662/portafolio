@@ -88,7 +88,7 @@ function Home() {
         </div>
         <div className="row skills">
           <div className="col skills-images">
-              <img src={backend}></img>
+            <img src={backend}></img>
           </div>
           <div className="col">
             <h6>Backend</h6>
@@ -102,7 +102,7 @@ function Home() {
         </div>
         <div className="row skills">
           <div className="col skills-images">
-              <img src={dataBase}></img>
+            <img src={dataBase}></img>
           </div>
           <div className="col">
             <h6>Base de datos</h6>
@@ -114,7 +114,7 @@ function Home() {
         </div>
         <div className="row skills">
           <div className="col skills-images">
-              <img src={frontend}></img>
+            <img src={frontend}></img>
           </div>
           <div className="col">
             <h6>Fronted</h6>
@@ -129,7 +129,7 @@ function Home() {
         </div>
         <div className="row skills">
           <div className="col skills-images">
-              <img src={others}></img>
+            <img src={others}></img>
           </div>
           <div className="col">
             <h6>Otras Herramientas</h6>
@@ -140,6 +140,78 @@ function Home() {
               <li>Trello</li>
             </ul>
           </div>
+        </div>
+      </section>
+      <section className="container section">
+        <div className="title">
+          <h2>Datos Académicos</h2>
+        </div>
+        <div className="academic-info">
+          <h6>Desarrollo Web Full Stack</h6>
+          <p>Prográmate Academy</p>
+          <p>Bogotá, Agosto 2022 - Marzo 2023</p>
+        </div>
+        <div className="academic-info">
+          <h6>Técnologo en Análisis y Desarrollo de Sistemas de Información</h6>
+          <p>Servicio Nacional de Aprendizaje - SENA</p>
+          <p>Bogotá, Mayo 2020 - Mayo 2023</p>
+        </div>
+        <div className="academic-info">
+          <h6>Ingeniería de Minas</h6>
+          <p>Universidad Pedagógica y Tecnológica de Colombia</p>
+          <p>Sogamoso, Agosto 2016 - Febrero 2023</p>
+          <p className="recognitions">Reconocimientos:</p>
+          <ul>
+            <li>
+              Monitor Categoría A para el área de Sistemas de la Escuela de
+              Ingeniería de Minas, Semestre 2021 - II y 2022 - I.
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section className="container section">
+        <div className="title">
+          <h2>Formación Complementaria</h2>
+        </div>
+        <div className="academic-info">
+          <h6>Universidad del Rosario - Samsung</h6>
+          <p>2023 - Samsung Innovation Campus 2022 - Python</p>
+        </div>
+        <div className="academic-info">
+          <h6>Universidad de los Andes</h6>
+          <p>2022 - Conceptos Básicos en la Nube - AWS</p>
+        </div>
+        <div className="academic-info">
+          <h6>Universidad del Norte - MisiónTic2022</h6>
+          <p>2021 - Desarrollo de Software</p>
+        </div>
+        <div className="academic-info">
+          <h6>Alianza Unicafam - IYF - Google</h6>
+          <p>2021 - Soporte de Técnologías de la Información</p>
+        </div>
+      </section>
+      <section className="container section">
+        <div className="title">
+          <h2>Proyectos</h2>
+        </div>
+      </section>
+      <section className="container section">
+        <div className="title">
+          <h2>Datos de Contacto</h2>
+        </div>
+        <div className="contact-data">
+          <BsPhoneFill />{" "}
+          <p className="px-2"> (+57) 3157513152 - (+57) 3156235218</p>
+        </div>
+        <div className="contact-data">
+          <BsEnvelopeFill /> <p className="px-2"> Jlbejarano662@gmail.com</p>
+        </div>
+        <div className="contact-data">
+          <BsLinkedin />{" "}
+          <p className="px-2"> www.linkedin.com/in/jazmín-bejarano-ibañez</p>
+        </div>
+        <div className="contact-data">
+          <BsGithub /> <p className="px-2">https://github.com/Jlbejarano662</p>
         </div>
       </section>
     </>

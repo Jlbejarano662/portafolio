@@ -116,7 +116,7 @@
     margin: auto;
     margin-bottom: 1.5rem;
 }
-.section > div > div > h6 {
+.section > div > div > h6  {
     color: #05a6a6;
 }
 .section > div > div > ul {
@@ -130,7 +130,42 @@
     justify-content: center;
     align-content: center;
 }
+.academic-info {
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1.5rem;
+}
+.academic-info > h6  {
+  color: #05a6a6;
+  margin: 0;
+}
+.academic-info > p,
+.academic-info > ul{
+  color: #000000 ;
+  text-align: justify;
+  margin: 0;
+}
 
+.academic-info > .recognitions {
+  color: #05a6a6;
+}
+
+.contact-data {
+  width: 90%;
+  margin: auto;
+  color: #000000;
+  display: flex;
+}
+
+.contact-data > svg {
+  font-size: 2rem;
+  color: #655a8c;
+}
+
+.contact-data > p {
+ max-width: 80%;
+ margin: auto;
+}
 
 @media (max-width: 576px) {
   .btn-lg {

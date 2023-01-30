@@ -73,16 +73,18 @@
   width: 100%;
 }
 
+/* Contact */
 .contact {
   position: fixed;
   right: 5%;
   z-index: 1;
-  padding: 5%;
+  padding: 1%;
   background-color: white;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  display: none;
 }
 
 .contact > svg {
@@ -110,38 +112,38 @@
 }
 
 .section > p {
-    color: #000000 ;
-    text-align: justify;
-    width: 90%;
-    margin: auto;
-    margin-bottom: 1.5rem;
+  color: #000000;
+  text-align: justify;
+  width: 90%;
+  margin: auto;
+  margin-bottom: 1.5rem;
 }
-.section > div > div > h6  {
-    color: #05a6a6;
+.section > div > div > h6 {
+  color: #05a6a6;
 }
 .section > div > div > ul {
-    color: #000000;
+  color: #000000;
 }
-.skills{
-    margin-bottom: 2rem;
+.skills {
+  margin-bottom: 2rem;
 }
-.skills-images{
-    display: grid;
-    justify-content: center;
-    align-content: center;
+.skills-images {
+  display: grid;
+  justify-content: center;
+  align-content: center;
 }
 .academic-info {
   width: 90%;
   margin: auto;
   margin-bottom: 1.5rem;
 }
-.academic-info > h6  {
+.academic-info > h6 {
   color: #05a6a6;
   margin: 0;
 }
 .academic-info > p,
-.academic-info > ul{
-  color: #000000 ;
+.academic-info > ul {
+  color: #000000;
   text-align: justify;
   margin: 0;
 }
@@ -155,6 +157,7 @@
   margin: auto;
   color: #000000;
   display: flex;
+  margin-bottom: 1.5rem;
 }
 
 .contact-data > svg {
@@ -163,8 +166,7 @@
 }
 
 .contact-data > p {
- max-width: 80%;
- margin: auto;
+  max-width: 80%;
 }
 
 @media (max-width: 576px) {
@@ -202,7 +204,7 @@
   }
 }
 
-@media (max-width: 768px) and (min-width: 577px) {
+@media (max-width: 767px) and (min-width: 577px) {
   .btn-lg {
     width: 100%;
     --bs-btn-font-size: 1rem;
@@ -216,15 +218,15 @@
     top: calc(50% - 175px);
   }
 
-    /* About Me */
-    .title {
-        border-radius: 15px;
-        padding-top: 0.25rem;
-        padding-bottom: 0.25rem;
-      }
+  /* About Me */
+  .title {
+    border-radius: 15px;
+    padding-top: 0.25rem;
+    padding-bottom: 0.25rem;
+  }
 }
 
-@media (max-width: 992px) and (min-width: 769px) {
+@media (max-width: 991px) and (min-width: 768px) {
   .container {
     max-width: 100%;
   }
@@ -235,7 +237,7 @@
   }
 }
 
-@media (max-width: 1200px) and (min-width: 993px) {
+@media (max-width: 1199px) and (min-width: 992px) {
   .container {
     max-width: 100%;
   }
@@ -243,5 +245,15 @@
     width: 450px;
     height: 450px;
     top: calc(50% - 225px);
+  }
+}
+
+@media (min-width: 1200px) {
+  
+}
+
+@media (min-width: 1400px) {
+  .contact {
+    right: 10%;
   }
 }

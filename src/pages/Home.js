@@ -208,7 +208,7 @@ function Home() {
         </div>
         <div className="contact-data">
           <BsLinkedin />{" "}
-          <p className="px-2"> www.linkedin.com/in/jazmín-bejarano-ibañez</p>
+          <p className="px-2">www.linkedin.com/in/jazmín-bejarano-ibañez</p>
         </div>
         <div className="contact-data">
           <BsGithub /> <p className="px-2">https://github.com/Jlbejarano662</p>
